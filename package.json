@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "clear-android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res"
   },
   "dependencies": {
     "react": "17.0.1",
@@ -15,7 +16,8 @@
     "react-native-code-push": "^7.0.1",
     "react-native-progress": "^5.0.0",
     "react-native-restart": "^0.0.22",
-    "react-native-svg": "^12.1.1"
+    "react-native-svg": "^12.1.1",
+    "react-native-toast-message": "^1.4.9"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
